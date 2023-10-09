@@ -14,3 +14,7 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+
+let ifResolve = (data) => console.log(data);
+
+getJohnProfile().then(ifResolve);

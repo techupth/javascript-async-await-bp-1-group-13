@@ -13,3 +13,10 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+
+let ifResolve = (data) => console.log(data);
+let ifReject = (error) => console.log(error);
+
+
+
+getJohnProfile().then(ifResolve).catch(ifReject);
