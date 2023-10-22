@@ -13,4 +13,7 @@ let getJohnProfile = () => {
     );
   });
 };
-// Start coding here
+let onSuccess = (data)=>{
+ console.log(data)
+}
+getJohnProfile().then(onSuccess)
